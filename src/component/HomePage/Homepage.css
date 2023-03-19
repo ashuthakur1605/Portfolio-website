@@ -1,0 +1,282 @@
+:root {
+  --primary-colur: red;
+}
+@media only screen and (min-width: 1928px) {
+  .HomeP {
+    /* border: 2px solid rgb(245, 0, 0); */
+    height: 2226px;
+    width: 100%;
+  }
+  .MainCard {
+    /* position: absolute;
+        border: 2px solid rgb(245, 0, 0);
+    left: 203px;
+    top: 100px; */
+    height: 30%;
+  }
+  .fullCard {
+    width: 68%;
+    margin: 0% 16%;
+  }
+  .Box {
+    width: 68%;
+    margin: 0% 16%;
+  }
+  .ImageS {
+    height: 500px;
+    width: 90%;
+    margin: 100px 0px 0px 220px;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1928px) {
+  .HomeP {
+    /* border: 2px solid rgb(245, 0, 0); */
+    height: 2226px;
+    width: 100%;
+  }
+  .MainCard {
+    /* position: absolute;
+        border: 2px solid rgb(245, 0, 0);
+    left: 203px;
+    top: 100px; */
+    height: 30%;
+  }
+  .fullCard {
+    width: 100%;
+  }
+  .Box {
+    width: 100%;
+  }
+  .ImageS {
+    height: 500px;
+    width: 90%;
+    margin: 100px 0px 0px 180px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .HomeP {
+    /* border: 2px solid rgb(245, 0, 0); */
+    height: 2226px;
+    width: 100%;
+  }
+
+  .MainCard {
+    /* position: absolute;
+    left: 103px;
+    top: 100px; */
+    height: 30%;
+  }
+  .fullCard {
+    width: 100%;
+  }
+  .Box {
+    width: 100%;
+  }
+  .ImageS {
+    height: 500px;
+    width: 90%;
+    margin: 100px 0px 0px 125px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .MainCard {
+    height: 30%;
+  }
+  .HomeP {
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 2226px;
+    width: 100%;
+  }
+  .fullCard {
+    width: 100%;
+  }
+  .Box {
+    width: 100%;
+  }
+  .ImageS {
+    height: 400px;
+    width: 90%;
+    margin: 100px 0px 0px 90px;
+  }
+}
+@media only screen and (min-width: 110px) and (max-width:600px)  {
+  .MainCard {
+    height: 30%;
+  }
+  .HomeP {
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 2226px;
+    width: 100%;
+  }
+  .fullCard {
+    width: 100%;
+  }
+  .Box {
+    width: 100%;
+  }
+  .ImageS {
+    height: 400px;
+    width: 90%;
+    margin: 100px 0px 0px 60px;
+  }
+}
+
+.HomeP {
+  height: 1922px;
+}
+
+.main-content {
+  /* border: 2px solid black; */
+  /* margin-top: 28px; */
+  display: flex;
+  height: 1143px;
+  width: 100%;
+  /* border: 2px solid black; */
+  /* border: 2px solid green; */
+  background-image: url(./Homeimg/Main-backgroundImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MainCard {
+  display: flex;
+  width: 80%;
+  /* border: 2px solid white; */
+  border-radius: 8px;
+  /* border: 2px solid green;*/
+  box-shadow: 12px 12px 35px black;
+  background-image: url(./Homeimg/Mcard.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 5% 20%;
+}
+.MainCard h3 {
+  display: flex;
+  font-size: 70px;
+  font-family: "Alex Brush", cursive;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  margin: 0px 123px;
+}
+
+.fullCard {
+  height: 507px;
+  /* border: 2px solid goldenrod; */
+  position: absolute;
+  top: 707px;
+  background-color: rgba(209, 209, 235, 0.637);
+
+  /* background-image:url(./Homeimg/fullCard.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+/* .main-h1{
+    font-size: 105px;
+    color: white;
+    font-family: cursive;
+
+
+}
+.Mcard img{
+    height: 39.7vh;
+    width: 73vw;
+    display: block;
+
+} */
+
+.Box {
+  /* border: 2px solid rgb(0, 255, 0); */
+  display: grid;
+  grid-template-areas:
+    "Box1 Box2"
+    "Box3 Box4";
+  background-color: rgba(207, 233, 233, 0.63);
+  /* grid-row: auto; */
+  height: 500px;
+  /* width: 100%; */
+
+  /* border: 2px solid ; */
+}
+/* .Box{
+    border: 2px solid rgb(0, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    height:800px;
+    width: 1200px;
+    position: absolute;
+    left: 182px;
+    top: 700px;
+    padding: 46px 0px 0px 52px;
+
+    
+} */
+
+.Bcard {
+  height: 308px;
+  width: 300px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  border-radius: 12px;
+  /* margin: 0px 0px 20px 0px; */
+  /* box-shadow: 12px 12px 15px rgb(0, 0, 0); */
+  padding: 26px 0px 0px 12px;
+}
+.Mtext {
+  display: flex;
+  align-items: center;
+}
+
+#Box1 {
+  grid-area: Box1;
+  border: 2px solid blue;
+  margin: 46px 0px 0px 22px;
+}
+#Box2 {
+  grid-area: Box2;
+  background-image: url(./Homeimg/c2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#Box3 {
+  grid-area: Box3;
+  background-image: url(./Homeimg/c3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#Box4 {
+  grid-area: Box4;
+  background-image: url(./Homeimg/c4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .Arrow{
+    height: 68px;
+    width: 68px;
+    border-radius: 35px;
+    background-color: rgb(168, 182, 168);
+    padding: 16px 26px;
+    font-size: 25px;
+
+
+}
+#Aright{
+    position: absolute;
+    right: 0px;
+}
+#Aleft{
+    position: absolute;
+    left: 0px;
+} */
+
+.Mfooter {
+  /* bottom: 0px; */
+  /* right: 0px; */
+
+  height: 308px;
+  width: 100%;
+  /* border: 2px solid; */
+}

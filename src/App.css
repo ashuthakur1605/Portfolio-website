@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.SingIn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 800px;
+  width: 800px; */
+  position: absolute;
+  top: 900px;
+  border: 2px solid green;
 }

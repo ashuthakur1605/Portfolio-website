@@ -1,0 +1,188 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --backgorund-color: #e5e5e5;
+}
+
+.background-color {
+  background-color: var(--backgorund-color);
+}
+
+  @media screen and (min-width:2001px) {
+     .ccontainer{
+      width: 70%;
+      margin: 100px 350px;
+     }
+  }
+  @media screen and (min-width:1441px) and (max-width:2000px) {
+     .ccontainer{
+      width: 80%;
+      margin: 100px 210px;
+     }
+    
+  }
+  @media screen and (min-width:1025px) and (max-width:1440px) {
+     .ccontainer{
+      width: 80%;
+      margin: 100px;
+     }  
+  }
+  @media screen and (min-width:769px) and (max-width:1024px) {
+      .ccontainer{
+        width: 80%;
+        margin: 100px;
+      } 
+  }
+  @media screen and (min-width:361px) and (max-width:768px) {
+      .ccontainer{
+        width: 80%;
+        margin: 100px 50px;
+      } 
+  }
+  @media screen and (max-width:360px) {
+    .ccontainer{
+      width: 80%;
+      margin: 100px 25px;
+    }
+  } 
+
+/* .Login {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: linear-gradient(90deg,  rgb(204, 57, 241),rgb(53, 53, 214));
+  
+  } */
+.SignIn{
+  width: 100%;
+  height: 900px;
+  margin: 0px;
+  background: url(Background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.ccontainer {
+  position: absolute;
+  height: 616px;
+  border-radius: 25px;
+  background-color: rgb(233 231 226);
+  opacity: 0.8;
+  padding: 40px;
+  
+}
+.ccontainer h2 {
+  text-align: center;
+  width: 100%;
+  /* position: relative; */
+  /* left: 164px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 125%;
+  color: #29375f;
+}
+
+.IInput {
+  width: 100%;
+  height: 44px;
+  display: block;
+  position: relative;
+  border-radius: 6px;
+  padding-top: 2px;
+  padding-left: 20px;
+  /* top: 10px; */
+  outline: none;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+}
+.Username {
+  top: 20px;
+  /* position: relative;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-left: 20px;
+    top: 10px;
+    outline: none;
+    border: 1px solid rgba(192, 206, 255, 0.7); */
+}
+.Username::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+
+.Password {
+  top: 40px;
+}
+.Password::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+.CPassword {
+  top: 60px;
+}
+.CPassword::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+.Email {
+  top: 80px;
+}
+.Email::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+/* .input3 {
+    position: relative;
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-left: 20px;
+    top: 30px;
+    outline: none;
+    border: 1px solid rgba(192, 206, 255, 0.7);
+  } */
+
+
+.SignInbutton {
+  position: relative;
+  border-radius: 12px;
+  top: 120px;
+  background-color: #fc6964;
+  outline: none;
+  border: #fc6964;
+}

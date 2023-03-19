@@ -1,0 +1,212 @@
+:root {
+  --backgorund-color: #e5e5e5;
+}
+
+.background-color {
+  background-color: var(--backgorund-color);
+}
+
+@media screen and (min-width:2001px) {
+  .container2{
+    width: 60%;
+    margin: 120px 463px;
+  }
+  .input {
+    width: 98%;
+    margin: 14px;
+  }
+}
+@media screen and (min-width:1441px) and (max-width:2000px){
+  .container2{
+    width: 75%;
+    margin: 100px 230px;
+  }
+  .input {
+    width: 98%;
+    margin: 14px;
+  }
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+  .container2{
+    width: 80%;
+    margin: 103px 120px;
+  }
+  .input {
+    width: 97%;
+    margin: 14px;
+  }
+  
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .container2{
+    width: 80%;
+    margin: 93px;
+  }
+  .input {
+    width: 95%;
+    margin: 14px;
+  }
+}
+@media screen and (min-width:361px) and  (max-width:768px) {
+  .container2{
+    width: 80%;
+    margin: 60px 50px;
+  }
+  .input {
+    width: 93%;
+    margin: 14px;
+  }
+  
+}
+@media screen and (max-width:360px) {
+  .container2{
+    width: 80%;
+    margin: 70px 25px;
+  }
+  .input {
+    width: 91%;
+    margin: 14px;
+  }
+}
+
+.Login {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: url(Background-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: linear-gradient(90deg,  rgb(204, 57, 241),rgb(53, 53, 214)); */
+}
+.container1 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  /* background: #f0f4fc; */
+}
+.container1 h1 {
+  width: 100%;
+  height: 30px;
+
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #203765;
+}
+.container1 p {
+  position: relative;
+  width: 10%;
+  height: 22px;
+  left: 149px;
+  top: 196px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  text-align: center;
+
+  color: rgba(32, 55, 101, 0.8);
+}
+
+.container2 {
+  height: 500px;
+  border-radius: 25px;
+  background-color: rgb(233 231 226);
+  opacity: 0.8;
+  /* background: linear-gradient(90deg,  rgb(204, 57, 241),rgb(53, 53, 214)); */
+}
+.container2 h2 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 125%;
+  /* identical to box height, or 28px */
+
+  color: #29375f;
+}
+
+.input {
+ 
+  height: 44px;
+
+}
+.input1 {
+  border-radius: 6px;
+  
+  outline: none;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+}
+.input1::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+
+.input2 {
+  border-radius: 6px;
+
+
+  outline: none;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+}
+.input2::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+
+  /* or 138% */
+
+  color: rgba(41, 55, 95, 0.4);
+}
+.input3 {
+  border-radius: 6px;
+
+  outline: none;
+  border: 1px solid rgba(192, 206, 255, 0.7);
+}
+
+.CreateUser {
+  margin: 42px 14px 0px 14px;
+  border-radius: 12px;
+  background-color: #fc6964;
+  outline: none;
+  border: #fc6964;
+  color: black;
+  text-decoration: none;
+}
+
+.CreateUser:hover {
+  font-size: 20px;
+}
+.button {
+  border-radius: 12px;
+  background-color: #fc6964;
+  outline: none;
+  border: #fc6964;
+}
+.button:hover {
+  font-size: 20px;
+}
