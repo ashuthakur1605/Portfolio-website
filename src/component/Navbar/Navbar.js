@@ -9,13 +9,13 @@ const Navbar=()=> {
 
     const BurClicked = ()=>{
         if(!IsmenuClicked){
-            console.log("visible")
+            // console.log("visible")
             setburclass("burgerl")
             setMenuclass("menu visible")
 
         }
         else{
-            console.log("hidden")
+            // console.log("hidden")
             setburclass("burgerl")
             setMenuclass("menu hidden")
         }
