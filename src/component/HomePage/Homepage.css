@@ -24,8 +24,8 @@
   }
   .ImageS {
     height: 500px;
-    width: 90%;
-    margin: 100px 0px 0px 220px;
+    width: 76%;
+    margin: 100px 0px 0px 332px;
   }
 }
 
@@ -139,13 +139,33 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.McontentText{
+  margin: 100px 0px 0px 70px;
+  padding: 20px;
 
+  height: 300px;
+  width: 50%;
+}
+.Mbtn{
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 50px;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  
+
+}
+
+/* 
 .MainCard {
   display: flex;
   width: 80%;
-  /* border: 2px solid white; */
+  border: 2px solid white;
   border-radius: 8px;
-  /* border: 2px solid green;*/
+  border: 2px solid green;
   box-shadow: 12px 12px 35px black;
   background-image: url(./Homeimg/Mcard.jpg);
   background-repeat: no-repeat;
@@ -160,18 +180,32 @@
   justify-content: center;
   font-size: 52px;
   margin: 0px 123px;
-}
+} */
 
 .fullCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 507px;
   /* border: 2px solid goldenrod; */
   position: absolute;
   top: 707px;
-  background-color: rgba(209, 209, 235, 0.637);
+  /* background-color: rgba(209, 209, 235, 0.637); */
 
   /* background-image:url(./Homeimg/fullCard.jpg) ;
     background-position: center;
     background-repeat: no-repeat; */
+}
+/* .iScreen{
+  width: 200px;
+  height: 400px;
+  border: 2px solid;
+  background-image: url(./Homeimg/iScreen.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.ImageS{
+  height: 500px;
 }
 
 /* .main-h1{
@@ -197,6 +231,9 @@
   background-color: rgba(207, 233, 233, 0.63);
   /* grid-row: auto; */
   height: 500px;
+    background-image:url(./Homeimg/fullCard.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
   /* width: 100%; */
 
   /* border: 2px solid ; */
@@ -223,6 +260,7 @@
   /* margin: 0px 0px 20px 0px; */
   /* box-shadow: 12px 12px 15px rgb(0, 0, 0); */
   padding: 26px 0px 0px 12px;
+
 }
 .Mtext {
   display: flex;

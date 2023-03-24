@@ -4,21 +4,49 @@
         align-items: center;
         justify-content: center;
     }
+    .contact-us{
+        color: black;
+    }
+    .HamMenu{
+        display: none;
+    }
     
+    
+}
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    .contact-us{
+        padding: 7px 15px;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 3px 15px;
+        height:40px;
+        border-radius: 18px;
+        width: 70px;
+        position: absolute;
+        right: 0;
+        top: 12px;
+        border-bottom: 2px solid;
+        background-image: linear-gradient(134deg, rgb(203 0 255 / 85%), rgb(0 0 255 / 88%));
+        color: white;
+        
+    }
+    .HamMenu{
+        display: none;
+    }
 }
 @media only screen and (min-width:10px) and (max-width:1024px) {
     .Hamburger{
         height: 35px;
-        width: 45px;
+        width: 40px;
         color: black;
         position: absolute;
         right: 22px;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         padding: 5px 0px 0px 0px;
     }
     .burgerl{
         border-radius: 13px;
-        border: 2px solid black;
+        border: 2.5px solid black;
         margin: 5px 0px 0px 0px;
        
     }
@@ -28,19 +56,33 @@
     .navbar{
         display: none;
     }
+    .contact-us{
+        display: none;
+    }
     .menu{
-    width: 20%;
-    height: 100vh;
-    border: 2px solid red;
-    /* background-color: pink; */
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid red; */
+    background-color: rgb(255, 255, 255);
+
     position: absolute;
-    top: 60px;
+    top: 70px;
     }
     
     .HamMenu{
-        height: 100vh;
+        
+        text-align: center;
+        height: 200px;
         width: 100%;
-        border: 2px solid black;
+       
+    }
+    .Hnavbar{
+        display: block;
+        margin: 3px 15px;
+        padding: 7px 5px;
+        font-size: 15px;
+        text-decoration: none;
+        color: rgb(110, 102, 102);
     }
     .hidden{
         display: none;
@@ -50,16 +92,20 @@
         display: inherit;
     }
 
+
+  
+    
+
     
 }
 .navi{
     display: flex;
     align-items: center;
-    background-color: rgba(238, 226, 221, 0.301);
+    /* background-color: rgba(238, 226, 221, 0.301); */
     /* border: 2px solid green; */
     height: 70px;
     width: 100%;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 .Logo{
     display: flex;
@@ -80,4 +126,12 @@
     text-decoration: none;
     color: rgb(110, 102, 102);
 }
+/* .contact-us{
+    display: inline-block;
+   
+    
+    text-align: center;
+
+    
+} */
 
