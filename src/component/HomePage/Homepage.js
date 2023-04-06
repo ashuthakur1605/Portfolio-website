@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 // import Sidebar from '../Sidebar/Sidebar'
 // import ImageSlider from './ImageSlider'
 import Footer from './footer'
+// import RoadMap from './RoadMap'
 // import Cimg1 from './Homeimg/Cimg1.jpg'
 // import Cimg2 from './Homeimg/Cimg2.jpg'
 
@@ -53,8 +54,13 @@ function Homepage() {
           <h3>Great Start</h3>
         </div> */}
         <div className="fullCard">
+          {/* <RoadMap/> */}
         <div className="iScreen"></div>
         </div>
+
+
+
+   
 
 
 

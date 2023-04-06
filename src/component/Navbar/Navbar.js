@@ -55,10 +55,10 @@ const Navbar = () => {
 
                     <div className="HamMenu">
 
-                        <Link to="/Home" id='Home' className={Hnavbar_class}>Home</Link>
-                        <Link to="/About us" id='About us' className={Hnavbar_class}>About us</Link>
-                        <Link to="/Contact us" id='Contact us' className={Hnavbar_class}>Contact us</Link>
-                        <Link to="/Login" id='Contact us' className={Hnavbar_class}>Login</Link>
+                        <Link to="/Home" id='HamHome' className={Hnavbar_class}>Home</Link>
+                        <Link to="/About us" id='HamAbout us' className={Hnavbar_class}>About us</Link>
+                        <Link to="/Contact us" id='HamContact us' className={Hnavbar_class}>Contact us</Link>
+                        <Link to="/Login" id='HamContact us' className={Hnavbar_class}>Login</Link>
 
                     </div>
                 </div>

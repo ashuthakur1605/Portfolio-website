@@ -56,8 +56,9 @@
    
     .navi{
         display: flex;
+        margin-top: 12px;
         align-items: flex-start;
-        height: 280px;
+        height: 260px;
     }
     .naviC{
         display: flex;
@@ -85,6 +86,7 @@
        
     }
     .burgerl:hover{
+        
         border-radius: 1em;
         background-color: aqua;
     }
@@ -105,7 +107,8 @@
     }
     
     .HamMenu{
-        
+        border-top: 2px solid black ;
+        background-image: linear-gradient(180deg, #8d8d8d, rgba(218, 215, 215, 0));
         text-align: center;
         height: 200px;
         width: 100%;
@@ -117,10 +120,13 @@
         padding: 7px 5px;
         font-size: 15px;
         text-decoration: none;
-        color: rgb(110, 102, 102);
+        font-family: OpenSans-Regular;
+        color: rgb(0, 0, 0);
     }
     .Hnavbar:hover{
-        font-size: 20px;
+        font-size: 17px;
+      
+
     }
     .hidden{
         display: none;

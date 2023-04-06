@@ -14,6 +14,12 @@
     top: 100px; */
     height: 30%;
   }
+  .McontentText{
+    margin: 3% 0% 0% 22%;
+    /* padding: 20px; */
+    height: 300px;
+    width: 30%;
+  }
   .fullCard {
     width: 68%;
     margin: 0% 16%;
@@ -42,6 +48,12 @@
     top: 100px; */
     height: 30%;
   }
+  .McontentText{
+    margin: 3% 0% 0% 5%;
+    /* padding: 20px; */
+    height: 300px;
+    width: 30%;
+  }
   .fullCard {
     width: 100%;
   }
@@ -67,6 +79,13 @@
     top: 100px; */
     height: 30%;
   }
+  .McontentText{
+    margin: 100px 0px 0px 70px;
+    padding: 20px;
+  
+    height: 300px;
+    width: 50%;
+  }
   .fullCard {
     width: 100%;
   }
@@ -89,6 +108,13 @@
     height: 2226px;
     width: 100%;
   }
+  .McontentText{
+    margin: 100px 0px 0px 70px;
+    padding: 20px;
+  
+    height: 300px;
+    width: 50%;
+  }
   .fullCard {
     width: 100%;
   }
@@ -109,6 +135,13 @@
     /* border: 2px solid rgb(0, 0, 0); */
     height: 2226px;
     width: 100%;
+  }
+  .McontentText{
+    margin: 100px 0px 0px 70px;
+    padding: 20px;
+  
+    height: 300px;
+    width: 50%;
   }
   .fullCard {
     width: 100%;
@@ -140,11 +173,9 @@
   background-repeat: no-repeat;
 }
 .McontentText{
-  margin: 100px 0px 0px 70px;
+
   padding: 20px;
 
-  height: 300px;
-  width: 50%;
 }
 .Mbtn{
   height: 50px;
@@ -186,10 +217,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 507px;
+  height: 807px;
   /* border: 2px solid goldenrod; */
   position: absolute;
-  top: 707px;
+  top: 607px;
   /* background-color: rgba(209, 209, 235, 0.637); */
 
   /* background-image:url(./Homeimg/fullCard.jpg) ;
@@ -221,6 +252,10 @@
     display: block;
 
 } */
+
+
+
+
 
 .Box {
   /* border: 2px solid rgb(0, 255, 0); */
