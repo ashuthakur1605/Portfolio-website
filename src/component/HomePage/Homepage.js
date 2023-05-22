@@ -1,6 +1,6 @@
 // import React, { useState } from 'react'
 import './Homepage.css'
-import Navbar from '../Navbar/Navbar'
+// import Navbar from '../Navbar/Navbar'
 import { Link } from 'react-router-dom'
 // import Sidebar from '../Sidebar/Sidebar'
 // import ImageSlider from './ImageSlider'
@@ -27,10 +27,7 @@ function Homepage() {
 
   return (
     <div className="HomeP" >
-      <div>
-        <Navbar />
-
-      </div>
+      
 
 
       {/* <article className='article'>
@@ -53,10 +50,12 @@ function Homepage() {
         <div className="MainCard">
           <h3>Great Start</h3>
         </div> */}
-        <div className="fullCard">
-          {/* <RoadMap/> */}
+        {/* <div className="fullCard">
+          <RoadMap/>
+          <div className="FSlider"></div>
+          
         <div className="iScreen"></div>
-        </div>
+        </div> */}
 
 
 

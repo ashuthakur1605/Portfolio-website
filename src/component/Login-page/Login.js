@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className="Login">
       <div className="container1">
-        <h1>Welcome to App Name</h1>
+        {/* <h1>Welcome to App Name</h1> */}
         {/* <p>Get ahead of the curve. Join the next generation of health heroes.</p> */}
         {/* <div className="frame"><img src={Frame} alt="" /></div> */}
         <div className="container2">

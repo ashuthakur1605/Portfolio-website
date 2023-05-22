@@ -3,12 +3,14 @@ import React from 'react'
 import './App.css' 
 import Login from './component/Login-page/Login'
 import SignIn from './component/SignIn-page/SignIn'
+import Navbar from './component/Navbar/Navbar'
+import Homepage from './component/HomePage/Homepage';
+
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Homepage from './component/HomePage/Homepage';
 
 
 function App() {
@@ -16,8 +18,12 @@ function App() {
     <>
     <div className="App">
       <BrowserRouter>
+    <div>
+        <Navbar />
+    </div>
+    
       <Routes>
-        <Route path='/'element={<Homepage/>}/>
+        <Route path='/Portfolio-website/'element={<Homepage/>}/>
         <Route path='/Login' element={<Login/>} />
         <Route path='/SignIn' element={<SignIn/>} />
 

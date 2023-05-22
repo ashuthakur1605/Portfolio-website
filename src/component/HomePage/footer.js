@@ -48,7 +48,7 @@ function footer() {
      
             <div className="F-right" style={Fdown}>
 
-                &copy; CopyRight all reserved
+                CopyRight &copy;  All Rights Reserved
             </div>
         </footer>
     )
