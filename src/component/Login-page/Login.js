@@ -14,11 +14,7 @@ function Login() {
           <h2>Sign-in to your account</h2>
           <input className='input input1' type="text" placeholder='Username' />
           <input className='input input2' type="password" placeholder='Password' />
-          <select className='input input3 ' name="Select Unit Name" id="">
-            <option value="Care Unit" >Care Unit</option>
-            <option value="Emargency Unit ">Emargency Unit</option>
-            <option value="Opd Unit ">Opd Unit</option>
-          </select>
+          
           <Link to="/SignIn"><button className='CreateUser input'>Create User</button></Link>
           <button className='button input'>Sign In</button>
         </div>

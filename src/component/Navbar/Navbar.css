@@ -11,9 +11,18 @@
         justify-content: center;
         height: 70px;
     }
-    .contact-us{
+    .NLogin{
         color: black;
         text-decoration: none;
+        padding: 7px 15px;
+        font-size: 15px;
+        text-decoration: none;
+        margin: 3px 15px;
+        height: 40px;
+        border-radius: 18px;
+        width: 70px;
+        background-image: linear-gradient(134deg, rgb(203 0 255 / 85%), rgb(0 0 255 / 88%));
+        color: white;
     }
     .HamMenu{
         display: none;
@@ -32,7 +41,7 @@
         align-items: center;
     height: 70px;
     }
-    .contact-us{
+    .NLogin{
         padding: 7px 15px;
         font-size: 15px;
         text-decoration: none;
@@ -43,7 +52,7 @@
         position: absolute;
         right: 0;
         top: 12px;
-        border-bottom: 2px solid;
+  
         background-image: linear-gradient(134deg, rgb(203 0 255 / 85%), rgb(0 0 255 / 88%));
         color: white;
         
@@ -93,7 +102,7 @@
     .navbar{
         display: none;
     }
-    .contact-us{
+    .NLogin{
         display: none;
     }
     .menu{
@@ -108,7 +117,7 @@
     
     .HamMenu{
         border-top: 2px solid black ;
-        background-image: linear-gradient(180deg, #8d8d8d, rgba(218, 215, 215, 0));
+        background-image: linear-gradient(180deg, rgb(124, 47, 212), rgb(14, 14, 143));
         text-align: center;
         height: 200px;
         width: 100%;
@@ -121,7 +130,7 @@
         font-size: 15px;
         text-decoration: none;
         font-family: OpenSans-Regular;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     .Hnavbar:hover{
         font-size: 17px;
@@ -164,6 +173,10 @@
 
     
 }
+nav{
+    background-color: rgb(14, 14, 143);
+    
+}
 .navi{
 
     /* background-color: rgba(238, 226, 221, 0.301); */
@@ -182,9 +195,10 @@
 }
 .Logo{
     display: flex;
-    background: url(./Logo.png) center center no-repeat;
+    background: url(./Logo.png) center center no-repeat ;
+    background-size:cover ;
     height: 49px;
-    width: 49px;
+    width: 8rem;
     margin-left: 15px;
     border-radius: 25px;
 }
@@ -197,7 +211,7 @@
     padding: 7px 5px;
     font-size: 15px;
     text-decoration: none;
-    color: rgb(110, 102, 102);
+    color: rgb(255, 255, 255);
 }
 /* .contact-us{
     display: inline-block;

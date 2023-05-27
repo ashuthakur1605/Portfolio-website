@@ -1,10 +1,16 @@
 // import React, { useState } from 'react'
+import React from 'react';
+import Typed from 'typed.js';
+
 import './Homepage.css'
 // import Navbar from '../Navbar/Navbar'
 import { Link } from 'react-router-dom'
 // import Sidebar from '../Sidebar/Sidebar'
 // import ImageSlider from './ImageSlider'
 import Footer from './footer'
+import Pb from './Homeimg/Pb.png'
+import Lb from './Homeimg/Ib.png'
+import Tb from './Homeimg/Tb.png'
 // import RoadMap from './RoadMap'
 // import Cimg1 from './Homeimg/Cimg1.jpg'
 // import Cimg2 from './Homeimg/Cimg2.jpg'
@@ -19,66 +25,125 @@ function Homepage() {
   // ]
   // const Text = [
   //   { Texth:"<h1>Enjoy The New Experience",title:"first" },
+
   //   { Texth:"<h1>Enjoy The New Age" ,title:"second"},
   //   { Texth:"<h1>Enjoy The New Milkiway" ,title:"third" },
   //   { Texth:"<h1>Enjoy The Clasical ",title:"fourth" },
   // ]
 
 
+  // Create reference to store the DOM element containing the animation
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["<i> And I'am a </i> coding enthusiast, who's exploring her potential."],
+      typeSpeed: 50,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+
+
+
   return (
-    <div className="HomeP" >
-      
+    <div className="HomeP bg" >
 
 
-      {/* <article className='article'>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem placeat perspiciatis debitis!</h3>
-      </article> */}
+      <main className='main-content bg'>
+        <div className="LeftContext">
+          <h2 className='Mh2'>
+            Hi, I'am Ashutosh Singh
+            <span id='el' ref={el} />
+          </h2>
 
-      <main className='main-content'>
-        <div className="McontentText">
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia aperiam ad, fugiat consequatur animi deleniti doloremque tempora aspernatur consectetur repellendus? Nostrum at quasi in impedit voluptatibus libero saepe explicabo excepturi.</p>
-          <p>
-          </p>
-          <button className='Mbtn' ><Link className ='Mbtn' to="/Login">Know more</Link> </button>
+
+          <button className='Mbtn' ><Link className='Mbtn' to="/Login">Know more</Link> </button>
         </div>
-        {/* <div className="ImageS">
-          
-        <ImageSlider Slides={Slides} />
-        </div> */}
-        {/* 
-        <div className="MainCard">
-          <h3>Great Start</h3>
-        </div> */}
-        {/* <div className="fullCard">
-          <RoadMap/>
-          <div className="FSlider"></div>
-          
-        <div className="iScreen"></div>
-        </div> */}
 
+        <div className="RightContext">
 
-
-   
-
-
-
-
-       </main>
-      <div className="Box" >
-        <div className="Bcard" id='Box1'>
-        <div className="Bcard" id='Box2'>Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
         </div>
-       <div className="Mtext"><h2>Lorem ipsum dolor sit</h2></div>
-        {/* <div className="Bcard" id='Box3'>Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
-        <div className="Bcard" id='Box4'>Lorem, ipsum dolor sit amet consectetur adipisicing </div> */}
+      </main>
+      <section className='ProjectSection bg-black'>
+        <h2>Project Details</h2>
+        <hr />
+        <div className="Project">
 
-      </div>
+          <div className="Lcontainer">
 
-      
-      <div className="Mfooter">
+            <div className="Portfolioweb">
+              <h3>Portfolio Website</h3>
+              <h5>
+                React, Html, Css, JavaScript
+              </h5>
+              <p>
+                Created a Portfolio website using React.js
+                ,Html, Css and JavaScript. 
+              </p>
+              <a href="https://ashuthakur1605.github.io/Portfolio-website/">(Click here)</a>
+
+            </div>
+
+            <div className="port">
+              <img src={Lb} alt="" />
+            </div>
+
+            <div className="Portfolioweb">
+              <h3>Text Editor
+              </h3>
+              <h5>
+                React, JavaScript , BootStrap
+
+              </h5>
+              <p>
+                Created a text editor website using React,
+                JavaScript, Bootstrap.
+              </p>
+                <a href="https://ashuthakur1605.github.io/website/">  (Click here) </a> 
+            </div>
+
+          </div>
+
+          <div className="Rcontainer">
+            <div className="port"><img src={Pb} alt="" /></div>
+
+            <div className="Portfolioweb">
+              <h3>I-Note Website</h3>
+              <h5>
+                React , Node.js , Css, BootStrap
+              </h5>
+              <p>
+                Created a I-Note website using React.js,
+                Css, Bootstrap and JavaScript.
+              </p>
+               <a href="https://ashuthakur1605.github.io/WeNotebook/"> (Click here)</a> 
+            </div>
+
+            <div className="port">
+              <img src={Tb} alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    
+
+
+
+
+
+
+
+      <footer className="Mfooter bg">
         <Footer />
-      </div>
+      </footer>
 
     </div>
 

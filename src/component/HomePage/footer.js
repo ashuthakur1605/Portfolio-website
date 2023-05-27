@@ -1,54 +1,60 @@
 import React from 'react'
-
+import Link from './Homeimg/Link.png'
+import Git from './Homeimg/Git.svg'
 function footer() {
     const footerStyle = {
-
-        height: '308px',
+        // height: '308px',
+        display:"flex",
         width: '100%',
-        // border: '2px solid red',
-        backgroundColor: 'grey',
-        color:"white",
+        color: "white",
+        background:"blueviolet",
+        padding: "10rem 1rem 10rem 1rem"
 
     }
     const Fdown = {
-        // position: "absolute",
-        // right: "0px",
-        display:"flex",
-        alignItems:"flex-end",
-        justifyContent:"center",
-        // border: "2px solid green",
+        // display:"flex",
+        // alignItems:"flex-end",
+        // justifyContent:"center",
         width: "100%",
-        height: "100px",
-        fontSize:"16px",
+        // height: "100px",
+        fontSize: "16px",
+        textAlign:"right"
+
     }
     const Fup = {
-        // position: "absolute",
-        // left: "0px",
-        // border: "2px solid red",
         width: "100%",
-        height: "200px",
-        fontSize:"16px",
-        textAlign:"center"
+        // height: "200px",
+        fontSize: "16px",
+        textAlign: "center"
 
     }
-    const Fcontent={
-        padding:"12px 12px 12px 50px"
+    const PImg = {
+        heigh: "52px",
+        width: "52px",
+        margin: "12px 35px 12px 35px",
 
     }
+    const Address = {
+        color:"white",
+        width:"37%"
+
+    }
+    // const Fcontent={
+    //     // padding:"12px 12px 12px 50px"
+
+    // }
     return (
         <footer className='footer' style={footerStyle}>
             <div className="F-left" style={Fup}>
-                 
+                <a href="https://www.linkedin.com/in/Ashutosh--Singh-/"><img src={Link} style={PImg} alt="" /></a>
+                <a href="https://github.com/ashuthakur1605"><img src={Git} style={PImg} alt="" /></a>
+            </div>
 
-                <div className="HHome" style={Fcontent}>Home</div>
-                <div className="AAboutUs" style={Fcontent}>About us</div>
-                <div className="CContactus" style={Fcontent}>Contact us</div>
-                <div className="SServices" style={Fcontent}>Our Services</div>
-                </div>
-     
             <div className="F-right" style={Fdown}>
 
-                CopyRight &copy;  All Rights Reserved
+                <p style={Address}>H.no. 370 Gangasagar Garha Jabalpur
+                    (M.P)
+                    Mobile-7999854182</p>
             </div>
         </footer>
     )
