@@ -37,7 +37,7 @@ function Homepage() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["<i> And I'am a </i> coding enthusiast, who's exploring her potential."],
+      strings: ["<i> And I'am a </i> coding enthusiast, who's exploring his potential."],
       typeSpeed: 50,
     });
 
